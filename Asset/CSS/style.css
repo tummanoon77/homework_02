@@ -1,0 +1,97 @@
+body {background-color: white;
+} 
+
+
+
+
+
+.navbar-collapse div {
+
+    padding-top: 15px;
+    text-align:  right;
+}
+
+.grid-block {
+    background-color: lightskyblue;
+      }
+     
+
+.footer { 
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(146, 140, 146);
+}
+
+.footer h2 {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+      background-color: whitesmoke;
+    }
+  
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #main-content,
+    #sidebar {
+      width: 100%;
+    }
+  
+    #sidebar {
+      margin-top: 40px;
+    }
+  }
+  
+  /* Additional Screen Sizes */
+  
+  /* Width at 320px and below */
+  @media screen and (max-width: 320px) {
+    body {
+      background-color: whitesmoke;
+    }
+  
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #main-content,
+    #sidebar {
+      width: 100%;
+    }
+  
+    #sidebar {
+      margin-top: 40px;
+    }
+  }
+  
+  /* Width at 168px and below */
+  @media screen and (max-width: 168px) {
+    body {
+      background-color:whitesmoke;
+    }
+  
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #main-content,
+    #sidebar {
+      width: 100%;
+    }
+  
+    #sidebar {
+      margin-top: 40px;
+    }
+  }
