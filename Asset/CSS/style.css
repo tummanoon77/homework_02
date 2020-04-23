@@ -10,7 +10,10 @@ hr {
     border-width: 1px;
     border-color: darkblue;
   }
-
+.cardP{
+  height: 200px;
+  width: 150px;
+}
 
 
 
@@ -24,11 +27,15 @@ hr {
     background-color: lightskyblue;
       }
      
-
+.cardP{
+  height: 200px;
+  width: 300px;
+}
 .footer { 
-    bottom: 0;
+    margin-top: 5px;
+    margin-bottom: 0px;
     width: 100%;
-    left: 0;
+    height: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     background-color: rgb(146, 140, 146);
