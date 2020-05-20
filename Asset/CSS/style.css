@@ -1,4 +1,4 @@
-body {background-color: white;
+body {background-color: burlywood;
 } 
 hr {
     display: block;
@@ -15,7 +15,9 @@ hr {
   width: 150px;
 }
 
-
+h4{
+  font-family: 'Raleway', sans-serif;
+}
 
 .navbar-collapse div {
 
@@ -23,27 +25,23 @@ hr {
     text-align:  right;
 }
 
-.grid-block {
-    background-color: lightskyblue;
-      }
+
      
 .cardP{
   height: 200px;
   width: 300px;
 }
 .footer { 
-    margin-top: 5px;
-    margin-bottom: 0px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    height: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    background-color: rgb(146, 140, 146);
+    
 }
 
-.footer h2 {
-    font-size: 15px;
-}
+
 
 @media screen and (max-width: 768px) {
     body {
